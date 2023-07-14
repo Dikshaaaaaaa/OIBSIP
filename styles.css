@@ -1,0 +1,116 @@
+*
+{
+    margin:0;
+    padding: 0;
+   
+}
+body
+{
+    background-color: rgb(7, 7, 39);
+    color:white;
+    font-family: 'Poppins';
+}
+nav{
+    display:flex;
+   align-items:center;
+   justify-content:space-around;
+   height: 80px;
+   background-color: rgb(13, 13, 56);
+}
+nav ul
+{
+    display:flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+nav ul li a:hover{
+   cursor: pointer;
+   color: rgb(186, 141, 228);
+}
+.left
+{
+    font-size: 25px;
+
+}
+.first
+{
+    display:flex;
+    justify-content: space-around;
+    
+    align-items: center;
+}
+.first > div{
+    width: 35%;
+}
+.leftsection{
+    font-size: 2rem;
+    line-height: 40px;
+}
+.leftsection{
+    font-size: 2rem;
+    line-height: 40px;
+}
+.leftsection .buttons{
+    padding:20px;
+}
+.rightsection img{
+    margin: 10px;
+   
+    width: 90%;
+    height: 90%;
+    
+}
+.purple{
+    color: rgb(182, 136, 225);
+}
+.white{
+    color:white;
+}
+.second
+{
+    max-width:88vw;
+    margin:auto;
+    height:80vh;
+
+}
+.second h1{
+    font-size: 1.6rem;
+    margin-top:0px;
+}
+.text-gray{
+    margin-top:7px;
+    font-size: 15px;
+    margin-bottom: 0px;
+    color:gray;
+}
+
+.second .ul .li
+{
+    line-height: 5px;
+}
+.btn
+{
+     background-color: rgb(21, 21, 71);
+    color:white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 12px whitesmoke;
+    font-size: medium;
+    border-radius: 2px;
+   
+    
+}
+.buttons :hover{
+    cursor: pointer;
+
+
+}
